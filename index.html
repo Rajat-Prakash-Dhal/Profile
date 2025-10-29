@@ -1,0 +1,556 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="True" name="HandheldFriendly" />
+    <meta
+      name="viewport"
+      content="width=device-width;initial-scale=1;maximum-scale=1;user-scalable=0;"
+    />
+    <script src="assets/js/iconify.min.js"></script>
+    <script src="assetsjs/lottie-player.js"></script>
+    <link rel="shortcut icon" href="short.ico" />
+    <title>Rajat Prakash Dhal</title>
+
+    <style>
+      /* --- Default (Desktop) Styles --- */
+      #desktop-content {
+        display: block; /* Show desktop content by default */
+      }
+      #mobile-content {
+        display: none; /* Hide mobile content by default */
+      }
+
+      /* This media query targets mobile/touch devices */
+      @media (hover: none) and (pointer: coarse), (max-width: 768px) {
+        /* Hide the desktop 3D portfolio */
+        #desktop-content {
+          display: none !important;
+        }
+
+        /* Show the mobile-specific content */
+        #mobile-content {
+          display: block;
+        }
+      }
+    </style>
+    <link href="main.css" rel="stylesheet" />
+    
+    <link
+      href="phone.css"
+      rel="stylesheet"
+      media="(hover: none) and (pointer: coarse), (max-width: 768px)"
+    />
+
+    </head>
+
+  <body>
+    <div id="desktop-content">
+      <canvas class="webgl"></canvas>
+
+      <header class="contactLinkDiv">
+        <nav class="navigationLinks">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rajatprakashdhal/"
+                target="_blank"
+                rel="noopener"
+                id="troisBar"
+                ><span
+                  class="iconify nav"
+                  data-icon="akar-icons:linkedin-box-fill"
+                ></span>
+                Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Rajat-Prakash-Dhal"
+                target="_blank"
+                rel="noopener"
+                id="troisBar"
+                ><span
+                  class="iconify nav"
+                  data-icon="akar-icons:github-fill"
+                ></span
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=7060356389&text="
+                target=" _blank"
+                rel="noopener"
+                id="troisBar"
+                ><span
+                  class="iconify nav"
+                  data-icon="akar-icons:whatsapp-fill"
+                ></span>
+                Whatsapp</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto: rajatpdhkbk@gmail.com"
+                target="_blnak"
+                rel="noopener"
+                id="troisBar"
+                ><span
+                  class="iconify nav"
+                  data-icon="akar-icons:envelope"
+                ></span>
+                email</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="presentation">
+        <div class="mainTitle">
+          <h1 class="alainTaiText">
+            R&nbspA&nbspJ&nbspA&nbspT&nbsp
+            &nbspP&nbspR&nbspA&nbspK&nbspS&nbspH &nbspD&nbspH&nbspA&nbspL
+          </h1>
+
+          <p class="creativeDevText" id="creativeDev">FULL STACK - MERN</p>
+          <div class="drapeauDiv">
+            <img src="assets/images/flag.png" alt="" class="drapeau" />
+          </div>
+          <div class="contact_me_button">
+            <a
+              href="/resume.html"
+              target="_blank"
+              rel="noopener"
+              class="contactMe_Text"
+              >Resume
+              <span
+                class="iconify whatsappIcon"
+                data-icon="akar-icons:face-very-happy"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <p class="scrollToNavigate" id="scrollToNavigate">scroll to navigate</p>
+        <div class="scrollView" id="scrollView">
+          <img src="assets/images/mousescroll.svg" alt="" class="logo" />
+        </div>
+      </section>
+      <section class="section1 work1 projects">
+        <div class="titleSection2">
+          <h2 class="myProjectText">My projects</h2>
+        </div>
+        <div class="textProjectsDiv">
+          <div class="singleline" id="SuocAPP">
+            <a
+              href="https://www.tavus.io/"
+              class="textProjectsTest"
+              target="_blank"
+              >Tavus
+              <span class="pointProjects">●</span>
+              <span class="spanProjectGradientText"
+                >AI Personalized Video Platform
+              </span></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="portfolio">
+            <a href="https://www.lessonrobot.com/" class="textProjectsTest"
+              >Lesson Robot <span class="pointProjects">●</span>
+              <span class="spanProjectGradientText"
+                >Create super lesson plans</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+          <div class="singleline" id="virtuals">
+            <a
+              href="https://www.virtuals.io/"
+              target="_blank"
+              class="textProjectsTest"
+              >Virtuals <span class="pointProjects">●</span>
+              <span class="spanProjectGradientText"
+                >virtual token launch</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+          <div class="singleline" id="defisport">
+            <a
+              href="https://www.eraser.io/"
+              class="textProjectsTest"
+              target="_blank"
+              >Eraser <span class="pointProjects">●</span>
+              <span class="spanProjectGradientText"
+                >AI for Tech Design and Doc
+              </span></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="metafluence">
+            <a
+              href="https://www.autotab.com/"
+              target="_blank"
+              class="textProjectsTest"
+              >AutoTab <span class="pointProjects">●</span>
+              <span class="spanProjectGradientText">General AI Agent</span></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="vikingfehu">
+            <a
+              href="https://vikingfehu.io/"
+              class="textProjectsTest"
+              target="_blank"
+              >Viking Fehu<span class="pointProjects">●</span>
+              <span class="spanProjectGradientText"
+                >Token Launch & CEX Listing</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="cornucopias">
+            <a
+              href="https://cornucopias.io/"
+              target="_blank"
+              class="textProjectsTest"
+              >Cornucopias <span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple"
+                >Web3 and MarketPlace</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+          <div class="singleline" id="amuse">
+            <a
+              href="https://lybra.finance/"
+              target="_blank"
+              class="textProjectsTest"
+              >Lybra <span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple"
+                >Next generation of Omnichain</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+          <div class="singleline" id="scotty">
+            <a
+              href="https://claim.scottybeam.io/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTest"
+              >scottybeam <span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple">Stake Scotty</span></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="presaleonsolana">
+            <a
+              href="https://presaleonsolana.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTest"
+              >WBT<span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple"
+                >Token Presale on Solana</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+          <div class="singleline" id="mypethooligangame">
+            <a
+              href="https://www.mypethooligangame.com/?"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTest"
+              >mypethooligangame<span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple"
+                >NFT - Metaverse</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+
+          <div class="singleline" id="sparks">
+            <a
+              href="https://myname-sparks-and-effects.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTest"
+              >Name Effect
+              <span class="pointProjects">●</span>
+              <span class="spanProjectGradientTextPurple"
+                >sparks-and-effects</span
+              ></a
+            >
+            <div class="colorBox"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section work">
+        <div class="titleSection2">
+          <h2 class="myProjectText">
+            <span
+              style="
+                color: #66fcea;
+                text-shadow: 0 0 2em #66fcea;
+                -webkit-text-stroke: 0.5px #66fcea;
+              "
+              >L</span
+            >eader<span
+              style="
+                color: #66fcea;
+                text-shadow: 0 0 2em #66fcea;
+                -webkit-text-stroke: 0.5px #66fcea;
+              "
+              >S</span
+            >hip
+          </h2>
+        </div>
+        <div class="textProjectsDiv">
+          <div class="singleline" id="multibit">
+            <a
+              href="https://scite.ai/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              >Scite
+              <span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextTurquoise"
+                >AI for Research</span
+              ></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="biswap">
+            <a
+              href="https://biswap.org/pool"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              ><span style="text-transform: uppercase">B</span>iswap<span
+                class="pointProjectsLab"
+                >●</span
+              >
+              <span class="spanProjectGradientTextTurquoise"
+                >Pool & Trade System</span
+              ></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="laserfiche">
+            <a
+              href="https://www.laserfiche.com/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              >laserfiche <span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextTurquoise"
+                >Secure Data</span
+              ></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="todoneumaticas">
+            <a
+              href="https://todoneumaticas.es/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              >todoneumaticas <span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextTurquoise">Shopify</span></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="innago">
+            <a
+              href="https://innago.com/"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              >innago <span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextBlue"
+                >Property Management
+              </span></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="forge">
+            <a
+              href="https://app.surgedefi.com/"
+              target="_blank"
+              rel="roopener"
+              class="textProjectsTestLab"
+              >SurgeDefi <span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextBlue"
+                >The First Cross-Chain DEX on XRPL-EVM</span
+              ></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+          <div class="singleline" id="yokaiswap">
+            <a
+              href="https://www.yokaiswap.com/bridge/deposit"
+              target="_blank"
+              rel="noopener"
+              class="textProjectsTestLab"
+              >yokaiswap<span class="pointProjectsLab">●</span>
+              <span class="spanProjectGradientTextBlue">Bridge-Trade</span></a
+            >
+            <div class="colorBoxLab"></div>
+          </div>
+        </div>
+        <div class="movieEditingDiv">
+          <div class="block Left">
+            <p class="blockText">
+              U<span style="color: #a966fc; text-shadow: 0 0 0.5em ##a966fc"
+                >I</span
+              >
+              U<span style="color: #a966fc; text-shadow: 0 0 0.5em ##a966fc"
+                >X</span
+              >
+            </p>
+            <a id="React"
+              ><span
+                class="iconify"
+                data-icon="vscode-icons:file-type-reactjs"
+              ></span
+            ></a>
+            <a id="Next"
+              ><span class="iconify" data-icon="logos:nextjs-icon"></span
+            ></a>
+            <a id="Blender"
+              ><span class="iconify" data-icon="bxl:blender"></span
+            ></a>
+            <a id="Three"
+              ><span class="iconify" data-icon="logos:threejs"></span
+            ></a>
+            <a id="Typescript"
+              ><span class="iconify" data-icon="logos:typescript-icon"></span
+            ></a>
+            <a id="Html5"
+              ><span class="iconify" data-icon="logos:html-5"></span
+            ></a>
+            <a id="CSS"
+              ><span class="iconify" data-icon="vscode-icons:file-type-css"></span
+            ></a>
+            <a id="Javascript"
+              ><span class="iconify" data-icon="logos:javascript"></span
+            ></a>
+            <a id="Webpack"
+              ><span class="iconify" data-icon="logos:webpack"></span
+            ></a>
+          </div>
+          <div class="block Right">
+            <p class="blockText">
+              B<span style="color: #a966fc; text-shadow: 0 0 0.5em #a966fc"
+                >A</span
+              >CK<span style="color: #a966fc; text-shadow: 0 0 0.5em #a966fc"
+                >E</span
+              >ND
+            </p>
+            <a id="node.js"
+              ><span class="iconify" data-icon="fa-brands:node"></span
+            ></a>
+            <a id="mongoDB"
+              ><span
+                class="iconify"
+                data-icon="logos:mongodb"
+                style="width: 20%"
+              ></span
+            ></a>
+            <a id="mysql"
+              ><span class="iconify" data-icon="logos:mysql"></span
+            ></a>
+            <a id="Postgresql"
+              ><span class="iconify" data-icon="logos:postgresql"></span
+            ></a>
+            <a id="firebase"
+              ><span class="iconify" data-icon="logos:firebase"></span
+            ></a>
+          </div>
+        </div>
+        <div class="technologyUsedDiv">
+          <p class="blockText">
+            T<span style="color: #66fcea; text-shadow: 0 0 0.5em #66fcea">e</span
+            >chnologies
+          </p>
+
+          <a id="Java"><span class="iconify" data-icon="logos:java"></span></a>
+
+          <a id="C Language"
+            ><span class="iconify" data-icon="cib:coreui-c"></span
+          ></a>
+        </div>
+      </section>
+      <div class="mouseInfo"></div>
+      <section class="section work">
+        <div class="titleSection2">
+          <h2 class="myProjectText">
+            Hi,
+            <span
+              style="
+                color: #66fcea;
+                text-shadow: 0 0 2em #66fcea;
+                -webkit-text-stroke: 0.5px #66fcea;
+              "
+              >I</span
+            >'m Rajat
+          </h2>
+        </div>
+      </section>
+    </div>
+    <div id="mobile-content">
+      <h1>Rajat Prakash Dhal</h1>
+      <p>Full Stack Developer (MERN)</p>
+
+      <p>
+        Welcome to my portfolio. The interactive 3D version is available on
+        desktop. Here are my quick links:
+      </p>
+
+      <div class="mobile-links">
+        <a href="/resume.html" target="_blank" rel="noopener">My Resume</a>
+        <a href="https://github.com/Rajat-Prakash-Dhal" target="_blank" rel="noopener"
+          >GitHub</a
+        >
+        <a
+          href="https://discordapp.com/users/973402572926881802"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a href="mailto: rajatpdhkbk@gmail.com.com" target="_blank" rel="noopener"
+          >Email Me</a
+        >
+      </div>
+    </div>
+    <script>
+      (function () {
+        // Check if we are on a mobile/touch device
+        const isMobile = window.matchMedia(
+          "(hover: none) and (pointer: coarse), (max-width: 768px)"
+        ).matches;
+
+        const script = document.createElement("script");
+        script.defer = true;
+
+        if (isMobile) {
+          // On mobile, load phone.js
+          script.src = "phone.js";
+        } else {
+          // On desktop, load bundle.js
+          script.src = "bundle.js";
+        }
+
+        document.body.appendChild(script);
+      })();
+    </script>
+  </body>
+</html>

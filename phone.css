@@ -1,0 +1,92 @@
+/* ===============================
+   PHONE.CSS
+   Styles for the mobile-only version of the portfolio.
+   =============================== */
+
+/* --- Basic Setup & Typography --- */
+body {
+  /* Use the dark background from your desktop site */
+  background-color: #050505; 
+  color: #eee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+
+  /* Ensure content starts below the notch, etc. */
+  padding: 2rem;
+  padding-top: env(safe-area-inset-top, 2rem);
+  padding-bottom: env(safe-area-inset-bottom, 2rem);
+  
+  /* Prevent horizontal scrolling */
+  overflow-x: hidden; 
+}
+
+#mobile-content {
+  max-width: 600px;
+  margin: 0 auto; /* Center the content */
+  text-align: center;
+}
+
+h1 {
+  /* Use the bright theme color */
+  color: #66fcea;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #b0b0b0; /* Slightly lighter than pure white */
+  margin-bottom: 1.5rem;
+}
+
+p:first-of-type {
+  /* The "Full Stack Developer" subtitle */
+  font-size: 1.25rem;
+  color: #eee;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+/* --- Mobile Links --- */
+
+.mobile-links {
+  margin-top: 3rem;
+}
+
+.mobile-links a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  
+  /* Create the button look */
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+
+  /* Smooth transition for tap effect */
+  transition: transform 0.1s ease-out, background-color 0.1s ease-out;
+}
+
+/* This "active" class will be added by phone.js
+  to give immediate feedback on tap.
+*/
+.mobile-links a.active {
+  transform: scale(0.98); /* Slightly shrink the button */
+  background-color: #252525; /* Darken it a bit */
+}
+
+/* Optional: Add a slight emphasis to the first link */
+.mobile-links a:first-child {
+  background: #222;
+  border-color: #66fcea;
+  color: #66fcea;
+}
