@@ -3,10 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 <body>
-    <h1>Rajat's Resume</h1>
-    <p>This is where you will put the content of your resume.</p>
-    </body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">RPD</div>
+            <div class="nav-links">
+                <a href="https://linkedin.com/in/rajatprakashdhal" target="_blank" rel="noopener" class="icon-link" aria-label="LinkedIn">
+                    <span class="iconify" data-icon="mdi:linkedin"></span>
+                </a>
+                <a href="https://github.com/RajatPrakashDhal" target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+                    <span class="iconify" data-icon="mdi:github"></span>
+                </a>
+                <a href="mailto:rajatpdhkbk@gmail.com" class="icon-link" aria-label="Email">
+                    <span class="iconify" data-icon="mdi:email"></span>
+                </a>
+                <a href="Rajat_Prakash_Dhal.pdf" download class="download-btn">
+                    <span class="iconify" data-icon="mdi:download"></span>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section fade-in">
+            <h1 class="hero-name">Rajat Prakash Dhal</h1>
+            <p class="hero-title">Software Engineer | Full-Stack & DevOps Developer</p>
+        </section>
+
+        <section class="content-section about-section" data-animate>
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                Entry-level Software Engineer with hands-on experience in Full-Stack Development and DevOps practices.
+                Skilled in building scalable web applications with React, Node.js, Firebase, and Docker.
+                Experienced in cloud deployment, CI/CD automation, and problem-solving.
+            </p>
+        </section>
+
+        <section class="content-section skills-section" data-animate>
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-heading">Languages</h3>
+                    <p>JavaScript, TypeScript, Python</p>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">Frontend</h3>
+                    <p>React, Next.js, HTML5, CSS3, Tailwind CSS</p>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">Backend</h3>
+                    <p>Node.js, Express.js, REST APIs, WebSockets</p>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">Databases</h3>
+                    <p>MongoDB, PostgreSQL, Redis, Firebase</p>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">DevOps / Cloud</h3>
+                    <p>Git, Docker, GitHub Actions, CI/CD, AWS, Firebase Hosting</p>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">Tools / Platforms</h3>
+                    <p>Vercel, Cloudinary, Stripe, PayPal, Algolia</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section experience-section" data-animate>
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Hackathon Participant</h3>
+                    <span class="experience-date">Dec 2024</span>
+                </div>
+                <p class="experience-company">Metadome.ai</p>
+                <p class="experience-description">
+                    Built AI-powered story generator using BLIP + GPT-2 and Streamlit UI.
+                    Delivered MVP in 24 hours through teamwork and problem-solving.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section education-section" data-animate>
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3 class="education-degree">B.E. in Computer Science Engineering</h3>
+                <p class="education-institution">HKBK College of Engineering</p>
+                <p class="education-details">2022–2026 | CGPA: 9.0</p>
+            </div>
+            <div class="education-item">
+                <h3 class="education-degree">Class XII</h3>
+                <p class="education-institution">Kendriya Vidyalaya DRDO</p>
+                <p class="education-details">2021 | 80.2%</p>
+            </div>
+            <div class="education-item">
+                <h3 class="education-degree">Class X</h3>
+                <p class="education-institution">Kendriya Vidyalaya AFS, Bareilly</p>
+                <p class="education-details">2019 | 82.2%</p>
+            </div>
+        </section>
+
+        <section class="content-section contact-section" data-animate>
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="iconify contact-icon" data-icon="mdi:email"></span>
+                    <a href="mailto:rajatpdhkbk@gmail.com">rajatpdhkbk@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="iconify contact-icon" data-icon="mdi:phone"></span>
+                    <a href="tel:07060356389">07060356389</a>
+                </div>
+                <div class="contact-item">
+                    <span class="iconify contact-icon" data-icon="mdi:web"></span>
+                    <a href="https://rajatprakashdhal.com" target="_blank">rajatprakashdhal.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="iconify contact-icon" data-icon="mdi:linkedin"></span>
+                    <a href="https://linkedin.com/in/rajatprakashdhal" target="_blank">linkedin.com/in/rajatprakashdhal</a>
+                </div>
+                <div class="contact-item">
+                    <span class="iconify contact-icon" data-icon="mdi:github"></span>
+                    <a href="https://github.com/RajatPrakashDhal" target="_blank">github.com/RajatPrakashDhal</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rajat Prakash Dhal — Built with ❤️</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <span class="iconify" data-icon="mdi:chevron-up"></span>
+    </button>
+
+    <script src="resume.js"></script>
+</body>
 </html>
